@@ -186,6 +186,12 @@
   .mx-auto {
     margin-inline: auto;
   }
+  .mt-\[20px\] {
+    margin-top: 20px;
+  }
+  .mt-\[25px\] {
+    margin-top: 25px;
+  }
   .mb-\[4px\] {
     margin-bottom: 4px;
   }
@@ -424,6 +430,16 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .border-\[1px\] {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
+  .border-\[\#FF5200\] {
+    border-color: #FF5200;
+  }
+  .border-\[rgba\(255\,83\,0\,1\)\] {
+    border-color: rgba(255,83,0,1);
+  }
   .border-gray-50 {
     border-color: var(--color-gray-50);
   }
@@ -432,6 +448,12 @@
   }
   .bg-\[\#FF5200\] {
     background-color: #FF5200;
+  }
+  .bg-\[rgba\(55\,55\,55\,1\)\] {
+    background-color: rgba(55,55,55,1);
+  }
+  .bg-\[rgba\(255\,83\,0\,1\)\] {
+    background-color: rgba(255,83,0,1);
   }
   .bg-white {
     background-color: var(--color-white);
@@ -448,6 +470,15 @@
   .p-\[10px_20px\] {
     padding: 10px 20px;
   }
+  .p-\[12px_15px\] {
+    padding: 12px 15px;
+  }
+  .p-\[12px_25px\] {
+    padding: 12px 25px;
+  }
+  .p-\[15px_20px\] {
+    padding: 15px 20px;
+  }
   .p-\[20px\] {
     padding: 20px;
   }
@@ -459,6 +490,9 @@
   }
   .p-\[40px\] {
     padding: 40px;
+  }
+  .p-\[50px_20px\] {
+    padding: 50px 20px;
   }
   .px-\[16px\] {
     padding-inline: 16px;
@@ -538,6 +572,9 @@
   }
   .text-\[32px\] {
     font-size: 32px;
+  }
+  .text-\[35px\] {
+    font-size: 35px;
   }
   .text-\[36px\] {
     font-size: 36px;
@@ -805,11 +842,17 @@
     .lg\:p-\[10px_150px\] {
       padding: 10px 150px;
     }
+    .lg\:p-\[15px_150px\] {
+      padding: 15px 150px;
+    }
     .lg\:p-\[30px\] {
       padding: 30px;
     }
     .lg\:p-\[40px\] {
       padding: 40px;
+    }
+    .lg\:p-\[60px_150px\] {
+      padding: 60px 150px;
     }
     .lg\:px-\[80px\] {
       padding-inline: 80px;
@@ -826,6 +869,9 @@
     .lg\:text-left {
       text-align: left;
     }
+    .lg\:text-\[14px\] {
+      font-size: 14px;
+    }
     .lg\:text-\[15px\] {
       font-size: 15px;
     }
@@ -840,6 +886,9 @@
     }
     .lg\:text-\[25px\] {
       font-size: 25px;
+    }
+    .lg\:text-\[32px\] {
+      font-size: 32px;
     }
     .lg\:text-\[42px\] {
       font-size: 42px;
