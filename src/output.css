@@ -285,6 +285,9 @@
   .w-\[90px\] {
     width: 90px;
   }
+  .w-\[100\%\] {
+    width: 100%;
+  }
   .w-\[120px\] {
     width: 120px;
   }
@@ -418,6 +421,9 @@
   .object-cover {
     object-fit: cover;
   }
+  .p-\[10px_20px\] {
+    padding: 10px 20px;
+  }
   .p-\[20px\] {
     padding: 20px;
   }
@@ -444,6 +450,9 @@
   }
   .py-\[14px\] {
     padding-block: 14px;
+  }
+  .py-\[20px\] {
+    padding-block: 20px;
   }
   .py-\[40px\] {
     padding-block: 40px;
@@ -743,6 +752,9 @@
     .lg\:gap-\[190px\] {
       gap: 190px;
     }
+    .lg\:p-\[10px_150px\] {
+      padding: 10px 150px;
+    }
     .lg\:p-\[30px\] {
       padding: 30px;
     }
@@ -751,6 +763,9 @@
     }
     .lg\:px-\[80px\] {
       padding-inline: 80px;
+    }
+    .lg\:py-\[40px\] {
+      padding-block: 40px;
     }
     .lg\:py-\[80px\] {
       padding-block: 80px;
